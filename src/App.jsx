@@ -35,7 +35,7 @@ function App() {
     }
 
     const options = {
-      key: "rzp_test_AWrlyaXOO9ncih", // This is merchant id you will get it from your razorpay account no need to verify account
+      key: "rzp_test_AWrlyaXOO9ncih", // This is Api key. you will get it from razorpay dashboard > account and settings > API keys
       amount: parseInt(amount * 100),
       currency: "INR", // your 3 letter currency code
       name: "Umang Bhalodiya", // project or transaction name
