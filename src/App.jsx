@@ -5,6 +5,10 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
+  const orderPlace = () => {
+    console.log("order placed");
+  };
+
   const loadScript = (src) => {
     return new Promise((resolve) => {
       const script = document.createElement("script");
